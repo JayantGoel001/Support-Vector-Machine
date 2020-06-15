@@ -34,3 +34,13 @@ SVMs can be used to solve various real-world problems:
 * Classification of satellite data like SAR data using supervised SVM.
 * Hand-written characters can be recognized using SVM.
 * The SVM algorithm has been widely applied in the biological and other sciences. They have been used to classify proteins with up to 90% of the compounds classified correctly. Permutation tests based on SVM weights have been suggested as a mechanism for interpretation of SVM models. Support-vector machine weights have also been used to interpret SVM models in the past. Posthoc interpretation of support-vector machine models in order to identify features used by the model to make predictions is a relatively new area of research with special significance in the biological sciences.
+
+## Kernel Based Classifcation in SVM's
+Sklearn supports the following types of Kernels, which can be used in many-real life problems.
+
+* Linear Kernel
+* RBF Kernel
+* Polynomial Kernel
+* Sigmoid Kernel
+
+Kernel trick is method of using a linear classifer to solve a non-linear problem. It transforms the linearly in-separable data into linearly separable one.
